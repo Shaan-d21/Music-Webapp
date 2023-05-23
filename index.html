@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b2ea3b7d46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Music Player</title>
+</head>
+
+<body>
+    <header>
+        <div class="menue_side">
+            <h1 id="audiophile">Audiophile.</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i>Playlist</h4>
+                <h4><span></span><i class="fa-solid fa-music"></i>Last Listening</h4>
+
+            </div>
+            <div class="menue_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="image/img1.jpg" alt="">
+                    <h5>
+                        <!-- Khwab <br><div class="subtitle"> Iqlipse Nova & Aditya A </div>-->
+
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="image/img2.jpg" alt="">
+                    <h5>
+                        <!-- Humdard <br><div class="subtitle">Arijit Singh</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="image/img3.jpg" alt="">
+                    <h5>
+                        <!-- Phir Kabhi <br><div class="subtitle">Arijit Singh & Amaal Malik</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="image/img4.jpg" alt="">
+                    <h5>
+                        <!-- Tumhe Jo Maine Dekha <br><div class="subtitle">Shreya Ghoshal & Abhijit</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="image/img5.jpg" alt="">
+                    <h5>
+                        <!-- Ik Vari Aa <br><div class="subtitle">Arijit Singh</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="image/img6.jpg" alt="">
+                    <h5>
+                        <!-- On My Way <br><div class="subtitle">Alan Walker</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="image/img7.png" alt="">
+                    <h5>
+                        <!-- As It Was <br><div class="subtitle">Harry Styles</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="image/img8.jpg" alt="">
+                    <h5>
+                        <!-- Heat Wave <br><div class="subtitle">Glass Animals</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="8"></i>
+                </li>
+                <li class="songItem">
+                    <span>09</span>
+                    <img src="image/img9.jpeg" alt="">
+                    <h5>
+                        <!-- Enemy <br><div class="subtitle">Imagine Dragons</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="9"></i>
+                </li>
+                <li class="songItem">
+                    <span>10</span>
+                    <img src="image/img10.png" alt="">
+                    <h5>
+                        <!-- Shape Of You <br><div class="subtitle">Ed Sheeran</div> -->
+                    </h5>
+                    <i class="fa-solid fa-play playListPlay" id="10"></i>
+                </li>
+            </div>
+        </div>
+        <div class="song_side" id="before">
+            <nav>
+                <span><i class="bi bi-arrow-left"></i></span>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search Music...">
+                    <div class="search_results">
+                        <!-- <a href="" class="card">
+                            <img src="image/img6.jpg" alt="">
+                            <div class="content">
+                                On My Way
+                                <div class="subtitle">Alan Walker</div>
+                            </div>
+                        </a> -->
+                    </div>
+                </div>
+                <i class="fa-solid fa-circle-user"></i>
+            </nav>
+            <div class="banner">
+                <div class="songImg">
+                    <img src="image/img6.jpg" alt="" id="songImg">
+                </div>
+                <div class="songInfo">
+                    <h1 class="songText">On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker
+                        </div>
+                    </h1>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="11"></i>
+                        </div>
+                        <h5>
+                            <!-- Standing By You <br><div class="subtitle">Nish</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="12"></i>
+                        </div>
+                        <h5>
+                            <!-- Astronaut in the Ocean <br><div class="subtitle">Masked Wolf</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="13"></i>
+                        </div>
+                        <h5>
+                            <!-- Night Changes <br><div class="subtitle">One Direction</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="14"></i>
+                        </div>
+                        <h5>
+                            <!-- Love Nwantiti <br><div class="subtitle">CKay</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="15"></i>
+                        </div>
+                        <h5>
+                            <!-- Stay <br><div class="subtitle">The Kid LARIO & Justin Bieber</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="16"></i>
+                        </div>
+                        <h5>
+                            <!-- Apna Bana Le <br><div class="subtitle">Arijit Singh</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="17"></i>
+                        </div>
+                        <h5>
+                            <!-- Tere Hawale <br><div class="subtitle">Arijit Singh & Shilpa Rao</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="18"></i>
+                        </div>
+                        <h5>
+                            <!-- Duniya <br><div class="subtitle">Akhil & Dhvani B</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="19"></i>
+                        </div>
+                        <h5>
+                            <!-- Tum Se Hi <br><div class="subtitle">Mohit Chauhan</div> -->
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/1.jpg" alt="">
+                            <i class="fa-solid fa-play playListPlay" id="20"></i>
+                        </div>
+                        <h5>
+                            <!-- Muskurahat <br><div class="subtitle">Mitraz</div> -->
+                        </h5>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="master_play">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="image/img6.jpg" alt="" id="poster_master_play">
+            <h5 id="title">On My Way
+
+                <div class="subtitle">Alan Walker</div>
+            </h5>
+            <div class="icon">
+                <i class="fa-solid shuffle fa-music"> next</i>
+                <i class="fa-solid fa-backward-step" id="back"></i>
+                <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" name="" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
